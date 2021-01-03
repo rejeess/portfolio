@@ -4,24 +4,26 @@ import {
   FaLinkedin,
   FaDribbbleSquare,
   FaBehanceSquare,
+  FaGithubSquare,
   FaTwitterSquare,
 } from "react-icons/fa"
 
 const data = [
-  // {
-  //   id: 3,
-  //   icon: <FaFacebookSquare className="social-icon"></FaFacebookSquare>,
-  //   url: "https://www.twitter.com",
-  // },
   {
+    id: 3,
+    icon: <FaGithubSquare className="social-icon"></FaGithubSquare>,
+    url: "https://github.com/rejeess",
+  },
+  {
+    
     id: 1,
     icon: <FaLinkedin className="social-icon"></FaLinkedin>,
-    url: "https://www.twitter.com",
+    url: "https://www.linkedin.com/in/rejeess-bhose-39a3391a0",
   },
   {
     id: 2,
     icon: <FaTwitterSquare className="social-icon"></FaTwitterSquare>,
-    url: "https://www.twitter.com",
+    url: "https://www.twitter.com/rejeess",
   },
   // {
   //   id: 3,

@@ -33,22 +33,18 @@ module.exports = {
         //   contentTypes : `jobs`, `projects`, `blogs`,
         //   singleType : `about`
         //  ONLY ADD TO ARRAY IF YOU HAVE DATA IN STRAPI !!!!
-        contentTypes: [`jobs`, `technologies`],
+        contentTypes: [`jobs`, `technologies`, `educations`],
         singleTypes: [`about`],
       },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          {
-            family: `Roboto`,
-            variants: [`400`, `700`],
-          },
-          {
-            family: `Open Sans`,
-          },
+          `limelight`,
+          `source sans pro\:300,400,400i,700` // you can also specify font weights and styles
         ],
+        display: 'swap'
       },
     },
   ],
